@@ -3,10 +3,10 @@ Network Programmibility &amp; Automation Labs with Python3, Jinja2, CSV File, Ci
 
 > The code in this repository is a modification of [Jedadiah Casey](https://neckercube.com/posts/2018-04-19-automating-labs-with-python-jinja2-and-netmiko/).
 
-# Hands On Lab
+## Hands On Lab
 This demo use Ubuntu 18.04 for Python & GNS3 for Dynampis Cisco Router 
 
-# Video Demo
+## Video Demo
 In folder demo, you must Convert .WEBM to MP4
 
 ## Setting Up the Ubuntu Machine
