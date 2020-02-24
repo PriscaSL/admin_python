@@ -1,0 +1,13 @@
+hostname {{ device }}
+
+{%- if gigabitethernet10 %}
+interface GigabitEthernet1/0
+ ip address {{ gigabitethernet10 }} {{ g10_netmask }}
+no shutdown
+{%- endif %}
+
+{%- if gigabitethernet20 %}
+interface GigabitEthernet2/0
+ ip address {{ gigabitethernet20 }} {{ g20_netmask }}
+ no shutdown
+{%- endif %}
