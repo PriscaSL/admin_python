@@ -36,7 +36,7 @@ This configuration below is used so that the router can be accessed using the ss
     R1conf t
     R1(config)username r1admin privilege 15 password 12345
     R1(config)ip domain name example.com
-    R1(config)crypto key generate rsa
+    R1(config)crypto key generate rsa modulus 1024
     R1(config)line vty 0 4
     R1(config-line)transport input SSH
     R1(config-line)login local
@@ -56,7 +56,7 @@ This configuration below is used so that the router can be accessed using the ss
     R2conf t
     R2(config)username admin privilege 15 password admin
     R2(config)ip domain name example.com
-    R2(config)crypto key generate rsa
+    R2(config)crypto key generate rsa modulus 1024
     R2(config)line vty 0 4
     R2(config-line)transport input SSH
     R2(config-line)login local
@@ -70,10 +70,10 @@ This configuration below is used so that the router can be accessed using the ss
     R2sh ip ssh
     R2copy run start
     ```
-     * *Note: Use **1024 in crypto key generate rsa** & make sure **Ubuntu and cisco** access are **connected** and can **ping** the router's IP address
+     * *Note: make sure **Ubuntu and cisco** access are **connected** via ssh and can **ping** the router's IP address
 
 
-## Running Automation
+## Running Code
 make sure **Ubuntu and cisco** access are **connected** using SSH and can **ping** the router's IP address
 
 1. Running Code
