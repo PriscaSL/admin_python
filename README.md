@@ -13,7 +13,7 @@ Video demo : https://www.youtube.com/watch?v=1Nhvj5D8pmg
 1. Clone the code repo
 
     ```bash
-    git clone https://github.com/muhammadluthfias/python_networking.git
+    git clone https://github.com/assyafii/python_networking.git
     cd python_networking
     ```
 
